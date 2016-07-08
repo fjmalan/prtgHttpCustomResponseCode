@@ -73,10 +73,11 @@ namespace prtgHttpCustomResponseCode
             {
                 result.Message = ex.Message;
                 result.ReturnValue = 0;
-                result.ReturnCode = 1;
+                result.ReturnCode = 2;
             }
             return result;
         }
+
 
 
         static int Main(string[] args)
